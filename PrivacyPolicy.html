@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mile0 Privacybeleid</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --accent: #e60d7a;
+      --accent-2: #5c0ae0;
+      --text: #17171c;
+      --muted: #666673;
+      --background: #f7f3f8;
+      --card: #ffffff;
+      --border: rgba(23, 23, 28, 0.09);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #f7f3f8;
+        --muted: #b7b2bf;
+        --background: #111116;
+        --card: #1d1b22;
+        --border: rgba(255, 255, 255, 0.11);
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(255, 72, 20, 0.16), transparent 32rem),
+        radial-gradient(circle at top right, rgba(92, 10, 224, 0.18), transparent 30rem),
+        var(--background);
+    }
+
+    main {
+      width: min(880px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 64px;
+    }
+
+    header {
+      padding: 32px;
+      border-radius: 24px;
+      color: white;
+      background: linear-gradient(135deg, #ff4510, #ff294c 34%, #e60d7a 64%, #5c0ae0);
+      box-shadow: 0 20px 60px rgba(230, 13, 122, 0.22);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 5vw, 3.4rem);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.2rem;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    section {
+      margin-top: 18px;
+      padding: 24px;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: color-mix(in srgb, var(--card) 94%, transparent);
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 1.2rem;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .summary {
+      font-size: 1.05rem;
+      max-width: 680px;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Privacybeleid Mile0</h1>
+      <p class="summary">Mile0 is gemaakt om ritten, voertuigen, kilometerstanden en rapporten overzichtelijk bij te houden. De app werkt zonder Mile0-account en bewaart je administratie standaard lokaal op je apparaat.</p>
+      <p>Laatst bijgewerkt: 28 juni 2026</p>
+    </header>
+
+    <section>
+      <h2>Korte samenvatting</h2>
+      <ul>
+        <li>Mile0 heeft geen eigen server waar je ritten of voertuigen automatisch naartoe worden gestuurd.</li>
+        <li>Ritten, voertuigen, favoriete adressen, instellingen en rapportgegevens worden lokaal in de app bewaard.</li>
+        <li>Locatie wordt gebruikt voor live ritten, ritdetectie, routekaarten, adressen en afstandsberekening.</li>
+        <li>Camera en foto's worden alleen gebruikt om tellerstanden te scannen wanneer jij die functie gebruikt.</li>
+        <li>Gegevens worden niet verkocht en niet gebruikt voor advertenties.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Welke gegevens bewaart Mile0?</h2>
+      <p>Mile0 kan de volgende gegevens lokaal op je apparaat bewaren:</p>
+      <ul>
+        <li>ritten, datums, adressen, kilometerstanden, vergoeding, notities en ritdoel;</li>
+        <li>voertuigen, kentekens, kilometerstanden en gereden kilometers per voertuig;</li>
+        <li>favoriete adressen, zoals Thuis of Werk;</li>
+        <li>instellingen zoals valuta, afstandseenheid, thema, standaardvergoeding en ritdetectie;</li>
+        <li>tijdelijke gegevens van een actieve live rit, zoals routepunten en afstand, zodat een rit kan doorgaan wanneer de app naar de achtergrond gaat.</li>
+      </ul>
+      <p>Na het stoppen van een live rit bewaart Mile0 de ritgegevens die nodig zijn voor je administratie. De tijdelijke routepunten worden niet als aparte permanente routegeschiedenis naar een Mile0-server gestuurd.</p>
+    </section>
+
+    <section>
+      <h2>Locatie en ritdetectie</h2>
+      <p>Locatie kan worden gebruikt voor live ritregistratie, automatische ritdetectie, routekaarten, huidige adressen en afstandsberekening. Wanneer live ritregistratie actief is, kan Mile0 locatie op de achtergrond gebruiken zodat de rit doorloopt wanneer het scherm is vergrendeld of de app niet vooraan staat.</p>
+      <p>Ritdetectie gebruikt locatie en bewegingssignalen om te herkennen dat je waarschijnlijk begint te rijden. Je kunt ritdetectie in de app-instellingen aan of uit zetten.</p>
+    </section>
+
+    <section>
+      <h2>Camera, foto's en OCR</h2>
+      <p>Mile0 gebruikt de camera of een gekozen foto alleen wanneer je een tellerstand wilt scannen. De herkenning van tellerstanden gebeurt in de app met Apple's systeemfuncties. Mile0 gebruikt deze beelden niet voor advertenties en stuurt ze niet automatisch naar een eigen server.</p>
+    </section>
+
+    <section>
+      <h2>Kaarten en derde partijen</h2>
+      <p>Voor adreszoeken, routekaarten, afstandsberekening en kaartweergave gebruikt Mile0 Apple-diensten zoals Apple Kaarten, MapKit, Core Location en geocoding. Daarbij kunnen adressen, zoekopdrachten of locatiegegevens door Apple worden verwerkt om de kaart- en routefunctie te leveren.</p>
+      <p>Als je zelf kiest voor "Open in Google Maps", worden de gekozen start- en eindadressen aan Google Maps doorgegeven om de route te openen. Dit gebeurt alleen wanneer jij die actie kiest.</p>
+      <p>Mile0 verkoopt geen gegevens aan derde partijen en gebruikt je gegevens niet voor advertentietracking.</p>
+    </section>
+
+    <section>
+      <h2>Notificaties en Live Activities</h2>
+      <p>Mile0 kan notificaties gebruiken voor ritdetectie, ritstatussen en acties zoals starten, pauzeren of stoppen. Live Activities kunnen een actieve rit op het vergrendelscherm tonen. Deze functies zijn bedoeld om ritregistratie makkelijker te maken en kunnen in iOS-instellingen worden beheerd.</p>
+    </section>
+
+    <section>
+      <h2>Rapporten en delen</h2>
+      <p>Je kunt rapporten exporteren als CSV of PDF. Een exportbestand wordt lokaal aangemaakt en alleen gedeeld met apps of personen die jij zelf kiest via de deelopties van iOS.</p>
+    </section>
+
+    <section>
+      <h2>Wat slaat Mile0 niet op?</h2>
+      <ul>
+        <li>Mile0 maakt op dit moment geen gebruikersaccount aan.</li>
+        <li>Mile0 uploadt je ritadministratie niet automatisch naar een eigen cloudserver.</li>
+        <li>Mile0 verkoopt geen persoonsgegevens.</li>
+        <li>Mile0 gebruikt je gegevens niet voor advertentieprofielen.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Gegevens verwijderen</h2>
+      <p>Je kunt ritten, voertuigen en favoriete adressen beheren of verwijderen in de app. Als je de app verwijdert, worden de lokaal opgeslagen appgegevens doorgaans ook van je apparaat verwijderd, afhankelijk van iOS en eventuele apparaatback-ups.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Heb je vragen over privacy of gegevensgebruik in Mile0? Neem contact op via de supportinformatie in de App Store-vermelding of via het supportadres dat bij Mile0 wordt gepubliceerd.</p>
+    </section>
+  </main>
+</body>
+</html>
