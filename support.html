@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mile0 Support</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --accent: #e60d7a;
+      --accent-2: #5c0ae0;
+      --text: #17171c;
+      --muted: #666673;
+      --background: #f7f3f8;
+      --card: #ffffff;
+      --border: rgba(23, 23, 28, 0.09);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #f7f3f8;
+        --muted: #b7b2bf;
+        --background: #111116;
+        --card: #1d1b22;
+        --border: rgba(255, 255, 255, 0.11);
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(255, 72, 20, 0.16), transparent 32rem),
+        radial-gradient(circle at top right, rgba(92, 10, 224, 0.18), transparent 30rem),
+        var(--background);
+    }
+
+    main {
+      width: min(880px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 64px;
+    }
+
+    header {
+      padding: 32px;
+      border-radius: 24px;
+      color: white;
+      background: linear-gradient(135deg, #ff4510, #ff294c 34%, #e60d7a 64%, #5c0ae0);
+      box-shadow: 0 20px 60px rgba(230, 13, 122, 0.22);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 5vw, 3.4rem);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.2rem;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    section {
+      margin-top: 18px;
+      padding: 24px;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: color-mix(in srgb, var(--card) 94%, transparent);
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 1.2rem;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .summary {
+      font-size: 1.05rem;
+      max-width: 680px;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Mile0 Support</h1>
+      <p class="summary">Hulp bij ritregistratie, voertuigen, rapporten, locatie en privacy in Mile0.</p>
+      <p>Laatst bijgewerkt: 2 juli 2026</p>
+    </header>
+
+    <section>
+      <h2>Snel aan de slag</h2>
+      <ul>
+        <li>Gebruik de plusknop om handmatig een nieuwe rit toe te voegen.</li>
+        <li>Gebruik Start rit om een live rit met GPS te registreren.</li>
+        <li>Pauzeer of stop een live rit in de app of via het vergrendelscherm wanneer Live Activities actief zijn.</li>
+        <li>Maak rapporten via Rapporten en exporteer als CSV of PDF.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Locatie en live ritten</h2>
+      <p>Voor live ritregistratie heeft Mile0 locatietoegang nodig. Controleer bij problemen of locatie is toegestaan via iOS Instellingen &gt; Privacy en beveiliging &gt; Locatievoorzieningen.</p>
+      <p>Als een rit niet verder registreert wanneer het scherm is vergrendeld, controleer dan of energiebesparing uit staat en of Mile0 locatietoegang heeft tijdens gebruik of altijd, afhankelijk van je ritdetectie-instellingen.</p>
+    </section>
+
+    <section>
+      <h2>Ritdetectie</h2>
+      <p>Ritdetectie kan beweging herkennen en je vragen of je een rit wilt starten. Je kunt deze functie aan- of uitzetten in Instellingen in de app.</p>
+      <p>Krijg je geen melding, controleer dan of notificaties en locatie zijn toegestaan voor Mile0.</p>
+    </section>
+
+    <section>
+      <h2>Tellerstand scannen</h2>
+      <p>Met OCR kun je een tellerstand scannen met de camera of een bestaande foto kiezen. Controleer altijd de herkende waarde voordat je een rit opslaat.</p>
+    </section>
+
+    <section>
+      <h2>Rapporten en exports</h2>
+      <p>PDF- en CSV-bestanden worden lokaal aangemaakt. Je kiest zelf of je een rapport deelt, bewaart of verstuurt via de deelopties van iOS.</p>
+    </section>
+
+    <section>
+      <h2>Privacy</h2>
+      <p>Mile0 werkt zonder Mile0-account en bewaart ritten, voertuigen en instellingen standaard lokaal op je apparaat. Lees het volledige privacybeleid via <a href="privacy.html">Privacybeleid Mile0</a>.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Heb je hulp nodig of wil je een probleem melden? Gebruik de supportinformatie in de App Store-vermelding van Mile0.</p>
+    </section>
+  </main>
+</body>
+</html>
